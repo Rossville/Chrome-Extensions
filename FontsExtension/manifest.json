@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "fontnium",
+    "version": "1.0",
+    "description": "Changes all fonts on a webpage to Italianno.",
+    "author": "ashutosh.singh.9510@gmail.com",
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["content-script.js"],
+        "css": ["styles.css"]
+      }
+    ]
+  }
+  
